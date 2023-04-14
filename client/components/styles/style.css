@@ -21,7 +21,7 @@
   justify-content: space-between;
   margin:auto;
   margin-top: 10px;
-  width: 400px;
+  width: 300px;
   height: 40px;
   align-items: stretch;
 }
@@ -316,6 +316,29 @@ img {
 
 
 @media only screen and (max-width: 1290px) {
+  #left_right {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #div_left{
+    width: 100%;
+  }
+
+  #div_right{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+ 
+
   #left_right {
     margin-top: 30px;
     display: flex;

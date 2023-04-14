@@ -82,7 +82,7 @@ const getItemStyle = (isDragging, draggableStyle) => ({
   font-size: 0.875rem;
   font-weight: 600;
   background-color: transparent;
-  width: 100%;
+  width: 95%;
   padding: 10px 12px;
   margin: 6px 6px;
   border: none;
@@ -114,7 +114,7 @@ const getItemStyle = (isDragging, draggableStyle) => ({
 const TabPanel = styled(TabPanelUnstyled)(
   ({ theme }) => ` 
   margin: auto;
-  width: 98%;
+  width: 90%;
   font-family: IBM Plex Sans, sans-serif;
   font-size: 0.875rem;
   padding: 20px 12px;
@@ -126,7 +126,7 @@ const TabPanel = styled(TabPanelUnstyled)(
 
 const TabsList = styled(TabsListUnstyled)(
   ({ theme }) => `
-  min-width: 400px;
+  min-width: 375px;
   background-color: ${blue[500]};
   border-radius: 12px;
   margin-bottom: 16px;

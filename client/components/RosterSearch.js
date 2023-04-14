@@ -46,7 +46,7 @@ const RosterSearch = (props) => {
         {error ? <AlertDialog error={error} message={message} _setError={setError}  ></AlertDialog> : "" }
         <div className ="search_area2">
             <form className ="roster_search_form" onSubmit={SearchRosters}>
-                <TextField id="filled-basic" variant="filled" sx={{width: '290px'}} placeholder="Enter Your Team Name or Username" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
+                <TextField id="filled-basic" variant="filled" sx={{width: '192px'}} placeholder="Enter Your Team Name" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
                 <Button variant="outlined" type="submit" value="submit" sx={{height:55}}>Search</Button>
             </form>
         </div>

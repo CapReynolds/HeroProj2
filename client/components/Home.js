@@ -114,7 +114,7 @@ const Home = (props) => {
   //setVal(props.currTab);
 
   return (
-    <div>
+    <div id="nav_bar">
       {isWelcomed != true ? <Welcome func={setIsWelcomed}/> : ""}
         <TabsUnstyled value={props.currTab}   onChange={handleChange}>
           <TabsList>
