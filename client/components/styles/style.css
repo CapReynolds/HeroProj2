@@ -1,0 +1,337 @@
+.area {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+} 
+
+.search_form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:auto;
+  margin-top: 10px;
+  width: 300px;
+  height: 40px;
+  align-items: stretch;
+}
+
+.roster_search_form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:auto;
+  margin-top: 10px;
+  width: 400px;
+  height: 40px;
+  align-items: stretch;
+}
+
+.search_area2{
+  margin:auto;
+  margin-top: 10px;
+  justify-content: space-between;
+  width: 300px;
+  height: 40px;
+  align-items: stretch;
+}
+
+.hero_form{
+  margin:auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+  height: 40px;
+  align-items: stretch;
+}
+
+#container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#centered_welcome {
+  /* justify-content: center; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#centered_header{
+  display: flex;
+  justify-content: center;
+}
+
+#centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#lower_bottom {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#bottom_right{
+  position: absolute;
+  bottom: 50px;
+  right: 36px;
+}
+
+#bottom_left{
+  position: absolute;
+  bottom: 50px;
+  left: 7px;
+}
+
+img {
+  border: 5px solid black;
+}
+
+#image_div{
+  position: absolute;
+}
+
+.results_list_outer{
+  overflow: hidden;
+  width: 100%;
+}
+
+.results_list_inner{
+  overflow-X: auto;
+  width: 100%;
+}
+
+.hero_roster_outer{
+  margin:auto;
+  overflow: hidden;
+  width: 98%;
+  height: '258px';
+}
+
+.hero_roster_inner{
+  margin:auto;
+  overflow-X: auto;
+  height: '258px';
+  width: 98%;
+}
+
+#center_div {
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+#char_des{
+  overflow: hidden;
+  height:95px;
+}
+
+.char_inner{
+  overflow-y: auto;
+  height:95px;
+}
+
+#footer{
+  height: 25px;
+  width: 100%;
+  padding-top: 4px;
+  padding-right: 4px;
+}
+
+#left_right{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#div_left{
+  display: flex;
+  flex-grow: 2;
+}
+
+#div_right{
+  display: flex;
+  flex-grow: 1;
+  border-style: groove;
+  border-color: lightblue;
+  height: 380px;
+  width: 20%;
+  overflow-y: scroll;
+}
+
+.x_button{
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.char_card{
+  background:lightgrey;
+  width: 220px;
+  border: 3px solid dodgerblue;
+  margin-right: 25px;
+  height: 330px;
+}
+
+.heroTeam {
+  min-width: 1000px;
+  width: 75%;
+  margin:auto;
+  height: 380px;
+  margin-top: 10px;
+  background: lightslategray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#outside0 {
+  position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+  clip-path: polygon(0% 0%, 50% 0%, 100% 100%, 0% 100%); 
+}
+
+#inside0 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 15px;
+  bottom: 10px;
+  background-color: #77cce9;
+  clip-path: polygon(0% 0%, 50% 0%, 100% 100%, 0% 100%); 
+}
+
+#outside1 {
+  position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+  clip-path: polygon(0% 0%, 93% 0%, 100% 100%, 50% 100%); 
+  margin-left: -10.8rem;
+}
+
+#inside1 {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  right: 10px;
+  bottom: 10px;
+  background: pink;
+  clip-path: polygon(2% 0%, 90% 0%, 96% 100%, 50% 100%);
+
+  width: 100%;
+  
+}
+
+#outside2 {
+  position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
+  margin-left: -3rem;
+}
+
+#inside2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background-color: grey;
+  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
+  
+}
+
+#outside3 {
+  position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+  width: 100%;
+  clip-path: polygon(10% 0%, 100% 0%, 58% 100%, 0% 100%);
+  margin-left: -2.4rem;
+}
+
+#inside3 {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  right: 10px;
+  bottom: 10px;
+  background-color: orange;
+  width: 100%;
+  clip-path: polygon(10% 0%, 93% 0%, 52% 100%, 0% 100%);
+  /* clip-path: polygon(2% 0%, 90% 0%, 96% 100%, 50% 100%); */
+}
+
+#outside4 {
+  position: relative;
+	height: 100%;
+	background-color: black;
+  width: 100%;
+  clip-path: polygon(45% 0%, 100% 0%, 100% 100%, 0% 100%);
+  margin-left: -10rem;
+}
+
+#inside4 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background-color: yellow;
+  /* width: 100%; */
+  clip-path: polygon(45% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.outside {
+  position: relative;
+	width: 500px;
+	height: 300px;
+	background: green;
+  clip-path: polygon(0% 0%, 48% 0%, 92% 100%, 0% 100%);
+}
+
+.inside {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 20px;
+  bottom: 10px;
+  background: blue;
+  clip-path: polygon(0% 0%, 48% 0%, 92% 100%, 0% 100%);
+}
+
+
+@media only screen and (max-width: 1290px) {
+  #left_right {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #div_left{
+    width: 100%;
+  }
+
+  #div_right{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+  }
+}
