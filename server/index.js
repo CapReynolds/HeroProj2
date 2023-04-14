@@ -82,18 +82,12 @@ app.get("/api/getcharacters", async(req,res,next) => {
             stories: {},
             furtherReading: ''
         };
-        let portrait_small = 'portrait_small';
-        let portrait_medium = 'portrait_medium';
-        let portrait_xlarge = 'portrait_xlarge';
-        let standard_large	= "standard_large";
+
         let standard_xlarge	= "standard_xlarge";
-        //let heroSearchTerm = "";
 
         let ts = Date.now();
         let hash = MD5(ts + process.env.PRIVATE_KEY + process.env.PUBLIC_KEY).toString();
-        //https://gateway.marvel.com:443/v1/public/characters?apikey=1bcba7b8a4173f5c0c14e07aabcc4374
-        //let testURL = `https://gateway.marvel.com:443/v1/public/characters?&ts=${ts}&apikey=1bcba7b8a4173f5c0c14e07aabcc4374&hash=${hash}&name=wolverine`;
-       
+        
         let baseURL = `https://gateway.marvel.com:443/v1/public/characters?&ts=${ts}&apikey=1bcba7b8a4173f5c0c14e07aabcc4374&hash=${hash}&name=${val}`
         
        
@@ -101,8 +95,7 @@ app.get("/api/getcharacters", async(req,res,next) => {
             if(response != undefined){
                 const result = JSON.parse(response.body);
             
-                //console.log('result data ', result.data);
-                //res.send(result);
+                
                 if(result.code === 200){
                     //all good
                     let tmp = result.data.results[0];

@@ -9,7 +9,10 @@
         "start:dev": "npm run start-server & npm run build-watch",
         "build-watch": "webpack -w --mode=development",
         "start-server": "nodemon server --ignore public",
-        "test": "mocha \"**/*.spec.js\""
+        "test": "mocha \"**/*.spec.js\"",
+        "start:bld": "npm run build & npm run start:dev",
+        "build:prod": "webpack --config webpack.prod.js",
+        "build:dev": "webpack --config webpack.dev.js"
     },
     "keywords": [],
     "author": "",
